@@ -20,8 +20,11 @@ class TweetCellTableViewCell: UITableViewCell {
     @IBOutlet weak var favoriteButton: UIButton!
     
     @IBAction func favoriteTweet(_ sender: Any) {
+        
     }
-    var favorited:Bool = false;
+    
+    var favorited:Bool = false
+    var tweetId:Int = -1
     func setFavorite(_ isFavorited:Bool){
         favorited = isFavorited
         if (favorited){
