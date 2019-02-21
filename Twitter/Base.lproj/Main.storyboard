@@ -104,14 +104,14 @@
                                             <state key="normal" image="favor-icon"/>
                                             <connections>
                                                 <action selector="favoriteTweet:" destination="QQa-EX-sug" eventType="touchUpInside" id="Jfg-NT-ARg"/>
-                                                <action selector="retweenButton:" destination="QQa-EX-sug" eventType="touchUpInside" id="uem-oh-ovT"/>
+                                                <action selector="retweetButton:" destination="QQa-EX-sug" eventType="touchUpInside" id="uem-oh-ovT"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2GA-rU-zlp" userLabel="retweetButton">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yu9-6L-pbX" userLabel="retweetButton">
                                             <rect key="frame" x="279" y="99" width="30" height="30"/>
                                             <state key="normal" image="retweet-icon"/>
                                             <connections>
-                                                <action selector="retweet:" destination="QQa-EX-sug" eventType="touchUpInside" id="4sV-Ev-SOE"/>
+                                                <action selector="retweet:" destination="QQa-EX-sug" eventType="touchUpInside" id="vvX-kh-Zz2"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -119,7 +119,6 @@
                                         <constraint firstItem="rXJ-eC-vaP" firstAttribute="trailing" secondItem="xK8-Df-iJi" secondAttribute="trailingMargin" id="49I-kc-Wts"/>
                                         <constraint firstItem="yI8-FU-yQ1" firstAttribute="top" secondItem="xK8-Df-iJi" secondAttribute="topMargin" id="Apu-Ih-Wxd"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="l6N-jc-c3c" secondAttribute="trailing" constant="10" id="Dvh-30-UkW"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="2GA-rU-zlp" secondAttribute="bottom" constant="10" id="Hpz-zq-3DC"/>
                                         <constraint firstItem="dlk-Ih-YQ8" firstAttribute="leading" secondItem="xK8-Df-iJi" secondAttribute="leading" id="Kht-g8-pRp"/>
                                         <constraint firstItem="rXJ-eC-vaP" firstAttribute="top" secondItem="X8a-nD-NrT" secondAttribute="bottom" constant="4" id="MtH-Ce-p5f"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="yI8-FU-yQ1" secondAttribute="trailing" constant="10" id="WsM-C3-9QC"/>
@@ -127,7 +126,8 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="l6N-jc-c3c" secondAttribute="bottom" constant="10" id="aZ6-AH-3lr"/>
                                         <constraint firstItem="dlk-Ih-YQ8" firstAttribute="top" secondItem="xK8-Df-iJi" secondAttribute="top" id="f3v-CA-S0z"/>
                                         <constraint firstItem="rXJ-eC-vaP" firstAttribute="leading" secondItem="dlk-Ih-YQ8" secondAttribute="trailing" constant="8" id="gie-5E-qKO"/>
-                                        <constraint firstItem="l6N-jc-c3c" firstAttribute="leading" secondItem="2GA-rU-zlp" secondAttribute="trailing" constant="10" id="mKg-aC-6kr"/>
+                                        <constraint firstItem="l6N-jc-c3c" firstAttribute="leading" secondItem="Yu9-6L-pbX" secondAttribute="trailing" constant="10" id="l0B-P6-f4Q"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Yu9-6L-pbX" secondAttribute="bottom" constant="10" id="qZR-yB-SAj"/>
                                         <constraint firstItem="l6N-jc-c3c" firstAttribute="top" secondItem="rXJ-eC-vaP" secondAttribute="bottom" constant="10" id="rzl-rf-mOS"/>
                                         <constraint firstItem="X8a-nD-NrT" firstAttribute="top" secondItem="xK8-Df-iJi" secondAttribute="topMargin" id="yBf-kU-Hwx"/>
                                     </constraints>
@@ -135,7 +135,7 @@
                                 <connections>
                                     <outlet property="favoriteButton" destination="l6N-jc-c3c" id="Oke-3e-KZo"/>
                                     <outlet property="profileImageView" destination="dlk-Ih-YQ8" id="m7K-GV-WEE"/>
-                                    <outlet property="retweetButton" destination="2GA-rU-zlp" id="DQ5-ah-fFR"/>
+                                    <outlet property="retweetButton" destination="Yu9-6L-pbX" id="VcR-8s-HGE"/>
                                     <outlet property="timeLabel" destination="yI8-FU-yQ1" id="Phv-dP-JgV"/>
                                     <outlet property="tweetContentLabel" destination="rXJ-eC-vaP" id="CAz-z4-CIB"/>
                                     <outlet property="userNameLabel" destination="X8a-nD-NrT" id="aGQ-wx-rUs"/>
