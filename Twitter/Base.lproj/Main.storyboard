@@ -104,7 +104,6 @@
                                             <state key="normal" image="favor-icon"/>
                                             <connections>
                                                 <action selector="favoriteTweet:" destination="QQa-EX-sug" eventType="touchUpInside" id="Jfg-NT-ARg"/>
-                                                <action selector="retweetButton:" destination="QQa-EX-sug" eventType="touchUpInside" id="uem-oh-ovT"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yu9-6L-pbX" userLabel="retweetButton">
