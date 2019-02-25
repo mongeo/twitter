@@ -26,7 +26,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-
+<img src='https://raw.githubusercontent.com/mongeo/twitter/master/y5eOOtCUkg.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Time spent: **6** hours spent in total
 
